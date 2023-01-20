@@ -1,6 +1,7 @@
 **Getting and Cleaning Data Project**
 
   By : Khem W.
+  
   Data Zip File Location: [UC Irvine Repo](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
 **Goal of the Project**
@@ -11,8 +12,8 @@
 
 
 **Criteria**
-- Analysis R Script	(run_analysis.R)	[R Script Link](url)
+- Analysis R Script	(run_analysis.R)	[R Script Link](/khemthung/datasciencecoursera/tree/main/3_Getting_and_Cleaning_Data/projects/run_analysis.R)
 - Tidy Data Set	(Clean Data Set)	[Data Set Link](url)
-- Github Repo	[Repo Link](/khemthung/datasciencecoursera/projects)
+- Github Repo	[Repo Link](/khemthung/datasciencecoursera/tree/main/3_Getting_and_Cleaning_Data/projects)
 - CodeBook.md	[Repo Link](url)
-- README	(ReadingItNow)	[Repo Link](url)
+- README	(Reading It Now)
