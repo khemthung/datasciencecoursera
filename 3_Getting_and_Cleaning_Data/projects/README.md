@@ -12,8 +12,8 @@
 
 
 ## **Criteria**
-- Analysis R Script	(run_analysis.R)	[R Script Link](../khemthung/datasciencecoursera/tree/main/3_Getting_and_Cleaning_Data/projects/run_analysis.R)
-- Tidy Data Set	(Clean Data Set)	[Data Set Link](../datasciencecoursera/tree/3_Getting_and_Cleaning_Data/projects)
-- Github Repo	[Repo Link](../khemthung/datasciencecoursera/tree/main/3_Getting_and_Cleaning_Data/projects)
+- Analysis R Script	(run_analysis.R)	[R Script Link](https://github.com/khemthung/datasciencecoursera/tree/main/3_Getting_and_Cleaning_Data/projects/run_analysis.R)
+- Tidy Data Set	(Clean Data Set)	[Data Set Link](url)
+- Github Repo	[Repo Link](https://github.com/khemthung/datasciencecoursera/tree/main/3_Getting_and_Cleaning_Data/projects)
 - CodeBook.md	[Repo Link](url)
 - README	(Reading It Now)
