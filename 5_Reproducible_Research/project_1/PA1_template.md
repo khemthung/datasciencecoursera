@@ -66,7 +66,7 @@ ggplot(Total_Steps, aes(x = steps)) +
     geom_histogram(fill = "blue", binwidth = 1000) +
     labs(title = "Daily Steps", x = "Steps", y = "Frequency")
 ```
-
+![](https://github.com/khemthung/datasciencecoursera/blob/main/5_Reproducible_Research/project_1/figure-markdown_github/unnamed-chunk-1-1.png)
 
 3.  Calculate and report the mean and median of the total number of steps taken per day
 
@@ -87,6 +87,7 @@ IntervalDT <- activityDT[, c(lapply(.SD, mean, na.rm = TRUE)), .SDcols = c("step
 ggplot(IntervalDT, aes(x = interval , y = steps)) + geom_line(color="blue", size=1) + labs(title = "Avg. Daily Steps", x = "Interval", y = "Avg. Steps per day")
 ```
 
+![](https://github.com/khemthung/datasciencecoursera/blob/main/5_Reproducible_Research/project_1/figure-markdown_github/unnamed-chunk-2-1.png)
 
 
 2.  Which 5-minute interval, on average across all the days in the dataset, contains the maximum number of steps?
@@ -94,6 +95,7 @@ ggplot(IntervalDT, aes(x = interval , y = steps)) + geom_line(color="blue", size
 ``` {r}
 IntervalDT[steps == max(steps), .(max_interval = interval)]
 ```
+
 
 
 Imputing missing values
@@ -140,7 +142,7 @@ Total_Steps[, .(Mean_Steps = mean(steps), Median_Steps = median(steps))]
 ``` {r}
 ggplot(Total_Steps, aes(x = steps)) + geom_histogram(fill = "blue", binwidth = 1000) + labs(title = "Daily Steps", x = "Steps", y = "Frequency")
 ```
-
+![](https://github.com/khemthung/datasciencecoursera/blob/main/5_Reproducible_Research/project_1/figure-markdown_github/unnamed-chunk-3-4.png)
 
 | Type of Estimate                       | Mean\_Steps | Median\_Steps |
 |----------------------------------------|-------------|---------------|
@@ -174,4 +176,7 @@ IntervalDT <- activityDT[, c(lapply(.SD, mean, na.rm = TRUE)), .SDcols = c("step
 
 ggplot(IntervalDT , aes(x = interval , y = steps, color=`weekday or weekend`)) + geom_line() + labs(title = "Avg. Daily Steps by Weektype", x = "Interval", y = "No. of Steps") + facet_wrap(~`weekday or weekend` , ncol = 1, nrow=2)
 ```
+![](https://github.com/khemthung/datasciencecoursera/blob/main/5_Reproducible_Research/project_1/figure-markdown_github/unnamed-chunk-4-2.png)
+
+
 
